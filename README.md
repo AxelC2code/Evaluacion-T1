@@ -41,9 +41,19 @@ Profesor: SEGUNDO JOSE CASTILLO ZUMARAN
 ### Clase Main
 - **Responsabilidad**: demostrar las funcionalidades solicitadas mediante un flujo ejecutable.
 ## Diagrama uml
+diagrama del modelo:
 
-## Implementación de las clases 
+![Diagrama de procesos](./Foto_procesos_importantes_git/Diagrama%20sin%20t%C3%ADtulo.drawio.png)
 
-## Funcionalidades que debe demostrar
+## Restricciones de negocio implementadas
+
+- El código del cliente no puede estar vacío.
+- El código del pedido no puede estar vacío.
+- El código del pedido debe ser único dentro de cada cliente.
+- El precio unitario y la cantidad deben ser mayores que cero.
+- El estado del pedido se limita a `PENDIENTE`, `ATENDIDO` o `CANCELADO`.
+- No se permiten pedidos duplicados por código.
+- Los atributos están encapsulados (`private`) con constructores, getters y setters.
+
 
 
