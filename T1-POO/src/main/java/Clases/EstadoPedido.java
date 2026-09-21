@@ -4,10 +4,8 @@
  */
 package Clases;
 
-/**
- *
- * @author Ingenieria
- */
-public class EstadoPedido {
-    
+public enum EstadoPedido {
+    PENDIENTE,
+    ATENDIDO,
+    CANCELADO
 }
